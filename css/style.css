@@ -401,4 +401,8 @@ button:hover {
     gap: 10px;
     padding: 5px;
   }
+  .message {
+    width: 450px;
+    height: 450px;
+  }
 }
