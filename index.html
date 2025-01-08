@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="main.js" type="module" defer></script>
+    <title>Snakes and Ladders</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="lang">
+        <span id="en">EN</span>
+        <span id="ar">AR</span>
+      </div>
+      <div class="dice-board">
+        <h1 class="player player_1_dice">DICE</h1>
+        <p class="alert">Lets Go!</p>
+        <h1 class="player player_2_dice">DICE</h1>
+      </div>
+      <div class="board-container">
+        <div class="message hidden">
+          <h1>You Won!</h1>
+        </div>
+        <ul class="board"></ul>
+      </div>
+      <div class="wrapper">
+        <div class="pointers-wrapper">
+          <div class="pointer pa"><span>1</span></div>
+          <div class="pointer pb"><span>2</span></div>
+        </div>
+        <div class="btn-wrapper">
+          <button id="role" type="text">START</button>
+          <button id="reset" type="text">RESET</button>
+        </div>
+      </div>
+      <span>beta version</span>
+    </div>
+  </body>
+</html>
